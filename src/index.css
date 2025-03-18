@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+
+
+    background: linear-gradient(90deg, rgb(6 6 9) 51%, rgb(18 17 65) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#29214A", endColorstr="#59347F", GradientType=1);
+}
