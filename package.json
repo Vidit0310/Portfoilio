@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "npm install --legacy-peer-deps && next build"
+    "build": "vite build"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.5",
