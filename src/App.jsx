@@ -3,15 +3,35 @@ import SplitText from "./components/Header";
 import Navbar from "./components/Navbar";
 import Particles from "./components/Particles";
 import RotatingText from "./components/RotatingText";
+import GooeyNav from './components/Navbar'
+
 
 function App() {
   const handleAnimationComplete = () => {
     console.log("All letters have animated!");
   };
+  const items = [
+    { label: "Home", href: "#" },
+    { label: "Project", href: "#" },
+    { label: "Skills", href: "#" },
+    { label: "Experience", href: "#" },
+    { label: "Certifications", href: "#" },
+  ];
 
   return (
     <div className="m-0 p-0">
-      <Navbar />
+      <div className="navbar flex justify-center items-center mt-2 h-20 ml-4 mr-4 bg-black bg-opacity-95">
+        <GooeyNav
+          items={items}
+          animationTime={600}
+          pCount={15}
+          minDistance={20}
+          maxDistance={42}
+          maxRotate={75}
+          colors={[1, 2, 3, 1, 2, 3, 1, 4]}
+          timeVariance={300}
+        />
+      </div>
       <div className="main h-screen lg:items-start lg:min-h-screen md:px-5 relative">
 
         {/* Particles as Background */}

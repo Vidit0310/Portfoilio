@@ -7,6 +7,16 @@ body {
 
 
     background: linear-gradient(90deg, rgb(6 6 9) 51%, rgb(18 17 65) 100%);
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#29214A", endColorstr="#59347F", GradientType=1);
+}
+
+.navbar {
+    background: rgb(46 43 43 / 35%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    position: sticky;
+    top: 15px;
 }
