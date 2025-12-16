@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Particles from "./components/Particles";
 import RotatingText from "./components/RotatingText";
 import GooeyNav from './components/Navbar'
+import "atropos/css"; 
+import AtroposCard from "./components/AtroposCard"
 
 
 function App() {
@@ -78,6 +80,10 @@ function App() {
             />
           </div>
         </div>
+      <div className="projects">
+          {/* <AtroposCard /> */}
+
+      </div>
 
       </div>
     </div>
